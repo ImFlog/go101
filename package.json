@@ -1,0 +1,21 @@
+{
+  "name": "go101",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.7",
+    "@slidev/theme-default": "latest",
+    "@slidev/types": "^0.48.7",
+    "slidev-theme-dracula": "latest",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.44.1",
+    "typescript": "^5.4.3"
+  }
+}
